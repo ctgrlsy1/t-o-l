@@ -1,0 +1,173 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+background-color: rgba(249, 240, 240, 0.38)
+    background-image: linear-gradient(to bottom, #fddb92 0%, #d1fdff 100%);
+}
+
+
+
+
+
+/* New stuff */
+
+
+.fav {
+	text-align: center;
+    padding: 70px;
+}
+
+.fa {
+	opacity: 0.7;
+	;
+}
+
+
+.para1 p {
+font-size: 16px;
+    font-family: arial;
+    font-weight: 300;
+    /* font-weight: 100; */
+    letter-spacing: 2px;
+    margin-top: 70px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    right: 300px;
+}
+
+
+.container2 {
+        height: 700px;
+    width: 100%;
+    /* background: black; */
+    background: rgba(249, 240, 240, 0.38);
+    padding-top: 70px;
+   
+}
+
+.container3 {
+        height: 600px;
+    width: 100%;
+    /* background: black; */
+    background: rgba(249, 240, 240, 0.38);
+    padding-top: 20px;
+   
+}
+
+
+h1 {
+	text-align: center;
+    font-family: georgia;
+    font-size: 40px;
+}
+
+
+.fav button {
+	background: none;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.fav button a {
+	color: black;
+}
+
+.container2 h1 {
+	font-size: 95px;
+    font-family: georgia;
+    letter-spacing: 10px;
+}
+
+.btt {
+	text-align: center;
+	margin-top: -50px;
+}
+
+.btt p {
+	    font-size: 17px;
+    text-decoration: underline;
+    color: black;
+}
+
+.btt p:a {
+	color: black;
+}
+
+#btt a:focus a:hover {
+	color: #000000;
+    background: wheat;
+    text-decoration: underline;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+.footer p {
+    font-weight: 400;
+    right: 80px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.header {
+	width: 100%;
+	display: none;
+
+}
+
+ul {
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	float: right;
+	float: right;
+    margin-right: 55px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: arial;
+}
+
+/* Site-wide styling */ 
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+    font-family: georgia;
+    font-size: 40px;
+}
+
+
+p {
+
+}
+
+
+/* Bounce rrow */
+
+
+
+
+/* Responsive Styling */
+
+@media (max-width: @1199px) {
+
+.jumbotron h1 {
+	font-size: 56px
+	margin-bottom: 30px;
+}
+
